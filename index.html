@@ -1,56 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div>
-      <h2>Azat Zhuniskhan</h2>
-      <h4>Student of KazNu</h4>
-      <br />
-      <table>
-        <tr>
-          <td>
-            <h4>Github:</h4>
-          </td>
-          <td>
-            <a href="https://github.com/leavemeal0n3"
-              >https://github.com/leavemeal0n3</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td><h4>Email:</h4></td>
-          <td><a href="">zhuniskhan.azat@gmail.com</a></td>
-        </tr>
-        <tr>
-          <td><p>87072716402</p></td>
-        </tr>
-        <th><h4>Languages:</h4></th>
-        <td>
-          <p>Russian - Advanced</p>
-          <p>Kazakh - Advanced</p>
-          <p>English - Pre-Intermediate</p>
-        </td>
-      </table>
-      <br />
-      <h2>About me</h2>
-      <p>
-        Меня зовут Азат, мне 20 лет, живу сейачас в Алмате и я студент 4 курса
-        "Комьютерной физики" <br />
-        университета КазНУ. Изучаю <b>Frontend</b>, а точнее
-      </p>
-      <ul>
-        <li><b>HTML</b></li>
-        <li><b>CSS</b></li>
-        <li><b>JavaScript</b></li>
-        <li><b>React</b></li>
-      </ul>
-      <p>
-        В будущем хотел бы заняться изучением <b>Angular</b> и углубиться более
-        в <b>Backend</b> что бы стать <b>Full Stack Developer.</b>
-      </p>
+    <div class="container">
+      <div class="left-side">
+        <div class="profileText">
+          <div class="imgBx">
+            <img src="src/pfp.jpg" />
+          </div>
+          <h2>Zhuniskhan Azat<br /><span>Web Developer</span></h2>
+        </div>
+
+        <div class="contactInfo">
+          <h3 class="title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="text">+707 271 6402</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <span class="text">zhuniskhan.azat@gmail.com</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <span class="text">Almaty, Kazakhstan</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <span class="text"
+                ><a href="https://github.com/leavemeal0n3">My Github</a></span
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo education">
+          <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>2019 - 2023</h5>
+              <h4>Computer physics</h4>
+              <h4>KazNU</h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo languages">
+          <h3 class="title">Languages</h3>
+          <ul>
+            <li>
+              <span class="text">Russian</span>
+              <span class="percent"><div style="width: 100%"></div></span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <span class="text">Kazakh</span>
+              <span class="percent"><div style="width: 100%"></div></span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <span class="text">English</span>
+              <span class="percent"><div style="width: 60%"></div></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="about">
+          <h2 class="title2">Profile</h2>
+          <p>
+            My name is Azat, I am 20 years old, now I live in Almaty and I am a
+            4th year student of "Computer Physics" at KazNU University. I study
+            Frontend, to be exact
+          </p>
+
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+
+          <p>
+            In the future, I would like to study Angular and delve more into the
+            Backend to become a Full Stack Developer.
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
